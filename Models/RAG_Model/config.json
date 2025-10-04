@@ -1,5 +1,0 @@
-{
-  "dim": 83,
-  "backend": "tfidf",
-  "svd": true
-}
