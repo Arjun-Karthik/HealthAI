@@ -1,0 +1,19 @@
+{
+  "features": [
+    "sbp",
+    "dbp",
+    "spo2",
+    "temperature"
+  ],
+  "seq_len": 8,
+  "target": "heart_rate",
+  "y_mean": 78.6144790649414,
+  "y_std": 14.869132995605469,
+  "vital_columns_used": [
+    "sbp",
+    "dbp",
+    "spo2",
+    "temperature",
+    "heart_rate"
+  ]
+}

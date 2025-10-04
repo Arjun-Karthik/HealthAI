@@ -1,0 +1,1 @@
+{"features": ["age_at_admit", "comor_count", "dow", "month", "hour", "is_weekend", "is_emergency", "sex", "admission_type", "admission_location", "discharge_location", "insurance", "language"]}
