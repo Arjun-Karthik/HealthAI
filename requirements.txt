@@ -1,30 +1,30 @@
-# Core scientific stack
-numpy
-pandas
-scipy
-
-# ML / Modeling
-scikit-learn
-imbalanced-learn
-xgboost
-mlxtend
+# --- wheels available on Py 3.10 ---
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.11.4
+scikit-learn==1.4.2
+imbalanced-learn==0.12.3
+mlxtend==0.23.1
+joblib==1.4.2
 hdbscan==0.8.37
-joblib
 
-# Deep learning & vision
-torch
-torchvision
-pillow
-typing-extensions
+# Optional modeling
+xgboost==2.0.3
 
-# Metrics/Explainability/Tracking
-shap
-mlflow
+# Deep learning (CPU) — if you use DL pages
+torch==2.3.1
+# avoid torchvision on cloud unless you truly need it
+# torchvision==0.18.1
 
-# Visualization
-matplotlib
-seaborn
-plotly
+pillow==10.3.0
+typing-extensions>=4.9.0
 
-# App
-streamlit
+# Viz/app
+matplotlib==3.8.4
+seaborn==0.13.2
+plotly==5.22.0
+streamlit==1.37.1
+
+# Optional
+shap==0.45.1
+mlflow==2.14.1
