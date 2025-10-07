@@ -1,0 +1,30 @@
+# Core scientific stack
+numpy
+pandas
+scipy
+
+# ML / Modeling
+scikit-learn
+imbalanced-learn
+xgboost
+mlxtend
+hdbscan==0.8.37
+joblib
+
+# Deep learning & vision
+torch
+torchvision
+pillow
+typing-extensions
+
+# Metrics/Explainability/Tracking
+shap
+mlflow
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# App
+streamlit
