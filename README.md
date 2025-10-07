@@ -112,25 +112,25 @@ Ensure Python 3.9+ is installed.
 
 ## ✅ Requirements
 
-   - numpy==1.26.4
-   - pandas==2.2.2
-   - scipy==1.11.4
-   - scikit-learn==1.4.2
-   - imbalanced-learn==0.12.3
-   - xgboost==2.0.3
-   - mlxtend==0.23.1
+   - numpy
+   - pandas
+   - scipy
+   - scikit-learn
+   - imbalanced-learn
+   - xgboost
+   - mlxtend
    - hdbscan==0.8.37
-   - joblib==1.3.2
-   - torch==2.3.1
-   - torchvision==0.18.1
-   - pillow==10.3.0
-   - typing-extensions>=4.9.0
-   - shap==0.45.1
-   - mlflow==2.14.1
-   - matplotlib==3.8.4
-   - seaborn==0.13.2
-   - plotly==5.22.0
-   - streamlit==1.36.0
+   - joblib
+   - torch
+   - torchvision
+   - pillow
+   - typing-extensions
+   - shap
+   - mlflow
+   - matplotlib
+   - seaborn
+   - plotly
+   - streamlit
 
 Install all with:
 
