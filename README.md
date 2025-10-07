@@ -138,6 +138,19 @@ Install all with:
 
 ## 📸 Screenshots
 
+### 🩻 CNN X-ray Classification Output
+
+<img src="Screenshots/Disease Prediction.png" width="800"/>
+
+### 🫀 LSTM Vital Trends Forecast
+
+<img src="Screenshots/Vital Signs.png" width="800"/>
+
+## 📃 License
+
+   This project is licensed under the MIT License – see the LICENSE file for details.
+
+
 
 
 
