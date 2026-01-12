@@ -592,15 +592,35 @@ if page.startswith("🔬 1"):
 
             # Distribution plots
             st.markdown("#### Distributions of Numeric Columns")
+
             try:
-                import seaborn as sns, matplotlib.pyplot as plt
-                sel_num = st.multiselect("Pick numeric columns to plot", num_cols, default=num_cols[:2])
+                import plotly.express as px
+            
+                sel_num = st.multiselect(
+                    "Pick numeric columns to plot",
+                    num_cols,
+                    default=num_cols[:2]
+                )
+            
                 if sel_num:
                     for c in sel_num:
-                        fig, ax = plt.subplots()
-                        sns.histplot(df[c].dropna(), kde=True, bins=30, ax=ax)
-                        ax.set_title(f"Distribution of {c}")
-                        st.pyplot(fig)
+                        fig = px.histogram(
+                            df,
+                            x=c,
+                            nbins=30,
+                            marginal="rug",   # visual density hint
+                            opacity=0.7,
+                            title=f"Distribution of {c}"
+                        )
+            
+                        fig.update_layout(
+                            xaxis_title=c,
+                            yaxis_title="Frequency",
+                            bargap=0.05
+                        )
+            
+                        st.plotly_chart(fig, use_container_width=True)
+            
             except Exception as e:
                 st.info(f"(Skipped distribution plots — {e})")
 
