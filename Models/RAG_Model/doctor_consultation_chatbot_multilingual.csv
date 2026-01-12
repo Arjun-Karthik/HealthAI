@@ -1,0 +1,516 @@
+id,user_query,bot_response,intent,specialty
+1,Is ibuprofen safe for stomach pain?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+2,I feel weak and tired,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+3,I have a fever and chills,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+4,Should I use ointment for rashes?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+5,I feel weak and tired,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+6,Is ibuprofen safe for stomach pain?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+7,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+8,My baby has a fever,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+9,I feel dizzy sometimes,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+10,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+11,My baby is not eating food,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+12,I feel dizzy sometimes,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+13,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+14,I am worried all the time,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+15,I have a fever and chills,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+16,My eyes are red and itchy,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+17,My throat feels sore,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+18,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+19,I get angry very quickly,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+20,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+21,Should I take multivitamins daily?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+22,I feel dizzy sometimes,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+23,I am sneezing continuously,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+24,Who should I see for weight loss advice?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+25,Which specialist for knee pain?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+26,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+27,What is a healthy breakfast?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+28,My eyes are red and itchy,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+29,Which doctor for frequent headaches?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+30,My child has stomach pain,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+31,My throat feels sore,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+32,What is a healthy breakfast?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+33,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+34,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+35,I am anxious most of the time,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+36,How to improve digestion?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+37,Which doctor for skin problems?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+38,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+39,I am sneezing continuously,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+40,My child has rashes,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+41,My baby is crying continuously,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+42,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+43,I feel weak and tired,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+44,What is a healthy breakfast?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+45,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+46,I have a fever and chills,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+47,Who treats thyroid issues?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+48,What fruits are good for the heart?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+49,My eyes are red and itchy,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+50,I am anxious most of the time,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+51,My kid is coughing continuously,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+52,My eyes are red and itchy,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+53,My eyes are red and itchy,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+54,I feel stressed and cannot sleep,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+55,I have a fever and chills,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+56,My kid is coughing continuously,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+57,How to improve sleep quality?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+58,My child has rashes,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+59,What should I avoid for acidity?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+60,I am sneezing continuously,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+61,My throat feels sore,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+62,My throat feels sore,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+63,Who treats allergies?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+64,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+65,My child has rashes,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+66,What medicine helps in acidity?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+67,How to reduce stress naturally?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+68,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+69,Should I use ointment for rashes?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+70,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+71,What is a healthy breakfast?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+72,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+73,I feel dizzy sometimes,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+74,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+75,What medicine helps in acidity?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+76,I feel weak and tired,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+77,I feel lonely,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+78,I feel mentally exhausted,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+79,I am sneezing continuously,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+80,I am sneezing continuously,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+81,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+82,I am sneezing continuously,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+83,I have a fever and chills,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+84,I am having panic attacks,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+85,What to eat for good sleep?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+86,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+87,Should I use ointment for rashes?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+88,Should I use ointment for rashes?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+89,I am having panic attacks,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+90,I have skin itching,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+91,My kid is coughing continuously,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+92,I feel depressed,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+93,How to control high blood pressure?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+94,My baby has a fever,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+95,Is aspirin good for chest pain?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+96,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+97,I am sneezing continuously,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+98,I feel stressed and cannot sleep,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+99,How to prevent heart disease?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+100,My eyes are red and itchy,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+101,I feel weak and tired,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+102,I feel weak and tired,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+103,Which syrup is good for cough?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+104,My eyes are red and itchy,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+105,What drops to use for red eyes?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+106,What should I eat for strong bones?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+107,My eyes are red and itchy,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+108,What drops to use for red eyes?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+109,What foods help in weight loss?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+110,I am sneezing continuously,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+111,What diet helps in immunity?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+112,Should I use ointment for rashes?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+113,My throat feels sore,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+114,Is ibuprofen safe for stomach pain?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+115,I have mood swings,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+116,My baby is not eating food,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+117,Can I take paracetamol for fever?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+118,I feel weak and tired,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+119,My eyes are red and itchy,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+120,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+121,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+122,What foods help in weight loss?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+123,Can I take paracetamol for fever?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+124,Which syrup is good for cough?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+125,How to stay fit after 40?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+126,My eyes are red and itchy,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+127,I am having panic attacks,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+128,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+129,What diet for high cholesterol?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+130,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+131,Which doctor for irregular heartbeat?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+132,I feel mentally exhausted,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+133,My child has loose motion,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+134,I have a fever and chills,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+135,What is a good diet for diabetes?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+136,My baby has a fever,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+137,How to prevent heart disease?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+138,Who treats allergies?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+139,My child feels weak,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+140,Who treats allergies?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+141,What should I eat for strong bones?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+142,My child has stomach pain,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+143,What diet helps in immunity?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+144,I am having panic attacks,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+145,Is ibuprofen safe for stomach pain?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+146,I am having panic attacks,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+147,Is ibuprofen safe for stomach pain?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+148,I have a fever and chills,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+149,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+150,What should I eat for strong bones?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+151,I have a fever and chills,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+152,What diet for high cholesterol?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+153,Which doctor for frequent headaches?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+154,How to improve sleep quality?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+155,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+156,My baby is crying continuously,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+157,I feel dizzy sometimes,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+158,What to eat for good sleep?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+159,What is a healthy breakfast?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+160,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+161,What diet helps in immunity?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+162,My throat feels sore,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+163,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+164,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+165,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+166,I am sneezing continuously,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+167,My kid is coughing continuously,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+168,My baby is crying continuously,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+169,My throat feels sore,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+170,I have a fever and chills,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+171,My kid is coughing continuously,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+172,My eyes are red and itchy,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+173,I feel dizzy sometimes,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+174,My eyes are red and itchy,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+175,What drops to use for red eyes?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+176,My kid has ear pain,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+177,I am sneezing continuously,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+178,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+179,How to boost immunity?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+180,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+181,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+182,I feel weak and tired,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+183,My throat feels sore,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+184,What diet helps in immunity?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+185,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+186,What should I avoid for acidity?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+187,How to improve sleep quality?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+188,What to eat for high blood pressure?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+189,What diet for high cholesterol?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+190,My child has rashes,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+191,I have skin itching,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+192,What should I eat for strong bones?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+193,I have skin itching,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+194,How to quit smoking?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+195,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+196,I feel dizzy sometimes,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+197,Which doctor for skin problems?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+198,Should I use ointment for rashes?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+199,Who treats allergies?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+200,Is aspirin good for chest pain?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+201,My child has loose motion,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+202,What to eat for high blood pressure?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+203,Which medicine for headache?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+204,I have skin itching,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+205,What diet for high cholesterol?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+206,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+207,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+208,I cannot focus on studies,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+209,My throat feels sore,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+210,I feel weak and tired,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+211,What is a healthy breakfast?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+212,My throat feels sore,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+213,I have a fever and chills,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+214,How to control high blood pressure?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+215,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+216,Can I take antibiotics for cold?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+217,I feel weak and tired,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+218,Which doctor for frequent headaches?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+219,How to keep cholesterol low?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+220,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+221,What should I avoid for acidity?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+222,My child has loose motion,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+223,I have a fever and chills,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+224,My baby is not eating food,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+225,I am worried all the time,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+226,Which doctor for irregular heartbeat?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+227,I have a fever and chills,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+228,I have skin itching,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+229,How to boost immunity?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+230,How to quit smoking?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+231,How to keep cholesterol low?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+232,How to reduce stress naturally?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+233,I feel weak and tired,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+234,My baby has a fever,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+235,I feel dizzy sometimes,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+236,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+237,I am sneezing continuously,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+238,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+239,I have a fever and chills,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+240,Which doctor for chest pain?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+241,Is aspirin good for chest pain?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+242,I feel depressed,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+243,Whom should I consult for breathing issues?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+244,How to quit smoking?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+245,My throat feels sore,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+246,My child feels weak,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+247,I feel stressed and cannot sleep,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+248,What drops to use for red eyes?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+249,I have skin itching,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+250,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+251,Should I take multivitamins daily?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+252,How to boost immunity?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+253,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+254,What to eat for high blood pressure?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+255,Which doctor for skin problems?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+256,Who should I see for weight loss advice?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+257,My baby is crying continuously,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+258,My eyes are red and itchy,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+259,I feel stressed and cannot sleep,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+260,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+261,My child has stomach pain,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+262,I have a fever and chills,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+263,How to keep cholesterol low?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+264,How to prevent heart disease?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+265,I am having panic attacks,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+266,What fruits are good for the heart?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+267,Whom should I consult for breathing issues?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+268,What to eat for good sleep?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+269,Is ibuprofen safe for stomach pain?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+270,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+271,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+272,What diet helps in immunity?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+273,My throat feels sore,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+274,My throat feels sore,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+275,I feel dizzy sometimes,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+276,I have mood swings,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+277,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+278,What to eat for good sleep?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+279,I have skin itching,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+280,Which doctor for frequent headaches?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+281,Who treats thyroid issues?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+282,My kid has ear pain,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+283,I feel weak and tired,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+284,I have a fever and chills,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+285,I feel stressed and cannot sleep,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+286,How to improve sleep quality?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+287,What to eat for good sleep?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+288,I have a fever and chills,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+289,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+290,Which doctor for frequent headaches?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+291,My baby is not eating food,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+292,Is ibuprofen safe for stomach pain?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+293,Which doctor for frequent headaches?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+294,My eyes are red and itchy,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+295,Should I use ointment for rashes?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+296,My throat feels sore,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+297,How to improve digestion?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+298,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+299,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+300,Which doctor for skin problems?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+301,How to improve sleep quality?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+302,I have mood swings,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+303,I have a fever and chills,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+304,My baby is crying continuously,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+305,My throat feels sore,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+306,Who treats allergies?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+307,My kid has ear pain,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+308,I am having panic attacks,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+309,Which specialist for knee pain?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+310,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+311,Who should I see for back pain?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+312,I have a fever and chills,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+313,I feel weak and tired,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+314,Who should I see for weight loss advice?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+315,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+316,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+317,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+318,I have skin itching,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+319,My child has stomach pain,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+320,How to improve digestion?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+321,Is ibuprofen safe for stomach pain?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+322,I have a fever and chills,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+323,My eyes are red and itchy,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+324,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+325,I cannot focus on studies,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+326,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+327,My child has loose motion,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+328,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+329,My baby is not eating food,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+330,What is a healthy breakfast?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+331,My eyes are red and itchy,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+332,What should I avoid for acidity?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+333,What should I avoid for acidity?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+334,Whom should I consult for breathing issues?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+335,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+336,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+337,My eyes are red and itchy,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+338,Who should I see for back pain?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+339,Which doctor for chest pain?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+340,What medicine helps in acidity?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+341,My baby is not eating food,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+342,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+343,What is a healthy breakfast?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+344,I am worried all the time,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+345,I have skin itching,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+346,What diet for high cholesterol?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+347,How to boost immunity?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+348,I am sneezing continuously,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+349,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+350,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+351,I feel stressed and cannot sleep,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+352,What to eat for good sleep?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+353,What fruits are good for the heart?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+354,I feel weak and tired,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+355,Which medicine for headache?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+356,How to control high blood pressure?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+357,Who should I see for back pain?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+358,I feel weak and tired,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+359,I feel weak and tired,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+360,My eyes are red and itchy,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+361,I am sneezing continuously,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+362,Who treats thyroid issues?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+363,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+364,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+365,How to maintain healthy weight?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+366,Who treats thyroid issues?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+367,My child has rashes,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+368,Is aspirin good for chest pain?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+369,What fruits are good for the heart?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+370,How to improve digestion?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+371,Which doctor for skin problems?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+372,Who treats thyroid issues?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+373,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+374,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+375,I feel dizzy sometimes,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+376,Should I use ointment for rashes?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+377,I feel lonely,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+378,I feel lonely,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+379,How to control high blood pressure?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+380,What to eat for good sleep?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+381,My child has loose motion,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+382,What foods help in weight loss?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+383,I feel dizzy sometimes,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+384,What fruits are good for the heart?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+385,I feel stressed and cannot sleep,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+386,I feel depressed,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+387,My child has stomach pain,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+388,Who treats thyroid issues?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+389,Should I use ointment for rashes?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+390,Should I take multivitamins daily?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+391,My baby has a fever,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+392,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+393,Can I take paracetamol for fever?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+394,What should I eat for strong bones?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+395,I am sneezing continuously,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+396,My baby has a fever,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+397,My child has rashes,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+398,How to improve sleep quality?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+399,I am sneezing continuously,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+400,I feel stressed and cannot sleep,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+401,I feel dizzy sometimes,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+402,What to eat for high blood pressure?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+403,How to improve digestion?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+404,I have skin itching,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+405,I am anxious most of the time,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+406,What diet helps in immunity?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+407,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+408,I feel weak and tired,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+409,I cannot focus on studies,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+410,How to improve sleep quality?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+411,My child has loose motion,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+412,Whom should I consult for breathing issues?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+413,I cannot focus on studies,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+414,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+415,I feel dizzy sometimes,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+416,My eyes are red and itchy,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+417,I feel dizzy sometimes,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+418,I have a fever and chills,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+419,Which doctor for chest pain?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+420,What foods help in weight loss?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+421,Which doctor for chest pain?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+422,Which doctor for irregular heartbeat?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+423,Who treats thyroid issues?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+424,My eyes are red and itchy,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+425,Which doctor for frequent headaches?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+426,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+427,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+428,Which doctor for skin problems?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+429,I have a fever and chills,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+430,My child has stomach pain,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+431,My child has loose motion,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+432,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+433,I have a fever and chills,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+434,Is ibuprofen safe for stomach pain?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+435,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+436,I feel depressed,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+437,I am having panic attacks,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+438,I cannot focus on studies,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+439,What drops to use for red eyes?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+440,I have stomach cramps,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+441,My baby has a fever,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+442,What should I avoid for acidity?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+443,Should I take multivitamins daily?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+444,My throat feels sore,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+445,What to eat for good sleep?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+446,Who treats thyroid issues?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+447,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+448,My child has loose motion,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+449,I feel dizzy sometimes,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+450,Is aspirin good for chest pain?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+451,I feel weak and tired,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+452,What diet helps in immunity?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+453,What to eat for high blood pressure?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+454,Should I use ointment for rashes?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+455,I am sneezing continuously,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+456,My baby is crying continuously,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+457,My child has loose motion,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+458,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+459,How to prevent heart disease?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+460,What to eat for good sleep?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+461,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+462,How to control high blood pressure?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+463,Who should I see for back pain?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+464,I feel mentally exhausted,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+465,What diet for high cholesterol?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+466,Should I take multivitamins daily?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+467,My baby is crying continuously,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+468,I feel weak and tired,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+469,Who treats thyroid issues?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+470,My child feels weak,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+471,What diet for high cholesterol?,A balanced diet with proper nutrition is recommended. Consult a dietitian for a detailed plan.,diet_advice,Endocrinology
+472,My child feels weak,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+473,I am having panic attacks,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+474,How to stay fit after 40?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+475,I have skin itching,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+476,I feel weak and tired,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+477,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+478,Which syrup is good for cough?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+479,Who treats thyroid issues?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+480,Which syrup is good for cough?,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+481,Who treats allergies?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+482,I feel dizzy sometimes,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+483,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+484,My throat feels sore,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,ENT
+485,I feel dizzy sometimes,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+486,I feel dizzy sometimes,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+487,My baby has a fever,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+488,Who treats allergies?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+489,How to prevent heart disease?,"Regular exercise, a healthy diet, and proper rest are recommended. Consult your doctor for guidance.",lifestyle_advice,Cardiology
+490,Which doctor for chest pain?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+491,I have a fever and chills,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+492,My throat feels sore,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,General Medicine
+493,My head hurts often,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+494,My kid has ear pain,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+495,Who should I see for back pain?,It is best to consult a specialist for this condition.,doctor_referral,Cardiology
+496,I am sneezing continuously,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+497,I am anxious most of the time,It seems you are facing mental stress. Practice relaxation and consult a psychiatrist if it continues.,mental_health,Psychiatry
+498,I feel pain in my joints,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+499,My child feels weak,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+500,I have skin itching,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Orthopedics
+501,मुझे बुखार है और बदन दर्द हो रहा है,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+502,मेरे बच्चे को खांसी है,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+503,मुझे सिरदर्द की दवा चाहिए,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+504,मुझे नींद नहीं आ रही है,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+505,उच्च रक्तचाप कैसे नियंत्रित करें?,It seems like you may need rest and hydration. Please consult a doctor if it persists.,symptom_check,Dermatology
+506,எனக்கு காய்ச்சல் மற்றும் உடல் வலி உள்ளது,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+507,என் குழந்தைக்கு வயிற்று வலி,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+508,எனக்கு தலைவலி உள்ளது,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+509,நான் எப்போதும் கவலையுடன் இருக்கிறேன்,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+510,இரத்த அழுத்தத்தை கட்டுப்படுத்துவது எப்படி?,Please monitor your child's symptoms carefully and consult a pediatrician if needed.,child_care,Pediatrics
+511,لدي حمى وألم في جسدي,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+512,طفلي يعاني من آلام في المعدة,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+513,أحتاج دواء للصداع,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+514,أشعر بالقلق طوال الوقت,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
+515,كيف أتحكم في ارتفاع ضغط الدم؟,"Please consult a physician before taking any medication. For mild symptoms, basic OTC medicines may help.",medicine_advice,General Medicine
